@@ -56,7 +56,7 @@ if [ -n "$haPath" ]; then
     cd "$haPath/custom_components" || error "Could not change path to $haPath/custom_components"
 
     info "Downloading HACS"
-    wget "https://github.com/hacs/integration/releases/download/1.24.5/hacs.zip"
+    wget "https://github.com/hacs/integration/releases/download/1.25.5/hacs.zip"
 
     if [ -d "$haPath/custom_components/hacs" ]; then
         warn "HACS directory already exist, cleaning up..."
